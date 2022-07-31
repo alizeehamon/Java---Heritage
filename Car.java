@@ -9,7 +9,7 @@ public class Car extends Vehicule {
 	@Override
 	public String doStuff() {
 		// TODO Auto-generated method stub
-		return "I am " + brand + " and I go zoom zoom zoom!";
+		return "I am " + this.getBrand() + " and I go zoom zoom zoom!";
 	}
 
 }

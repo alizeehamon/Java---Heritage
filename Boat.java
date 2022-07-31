@@ -9,7 +9,7 @@ public class Boat extends Vehicule {
 	@Override
 	public String doStuff() {
 		// TODO Auto-generated method stub
-		return "I am " + brand + " and I go glug glug!";
+		return "I am " + this.getBrand() + " and I go glug glug!";
 	}
 
 }
